@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Mission</title>
+
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap_paper.min.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="plugins/font-awesome-4.6.1/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+
+
+</head>
+<body>
+    <section id="home">
+        <nav id="teste" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Math Mission</a>
+                </div>
+                <div class="collapse navbar-collapse" id="meuMenu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#quem-somos">Que Somos</a></li>
+                        <li><a href="#sobre"> O Aplicativo</a></li>
+                        <li><a href="#download">Downloads</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="logo">
+            <div class="container">
+                <div class="row" style="margin-top: 10%;">
+                    <div class="col-md-12">
+                        <div class="col-md-10 col-md-offset-1">
+                            <h3 class="text-center titulo-home">
+                                Estamos Trabalhando em Algo Grande
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center cronometro">
+                        <div class="col-md-3">
+                            <div class="painel-dias">
+                                <div class="digitos">
+                                    <span id="dias">
+
+                                    </span>
+                                </div>
+                                <div class="titulo">
+                                    <h4> Dias</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="painel-horas">
+                                <div class="digitos">
+                                    <span id="horas">
+
+                                    </span>
+                                </div>
+                                <div class="titulo">
+                                    <h4> Horas </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="painel-minutos">
+                                <div class="digitos">
+                                    <span id="minutos">
+
+                                    </span>
+                                </div>
+                                <div class="titulo">
+                                    <h4> Minutos</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="painel-segundos">
+                                <div class="digitos">
+                                    <span id="segundos">
+
+                                    </span>
+                                </div>
+                                <div class="titulo">
+                                    <h4> Segundos</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="btn-inscreva" class="form-group text-center">
+                        <div class="col-md-6 col-md-offset-3" style="padding-top: 10%;">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text"  id="campoEmail" class="form-control" placeholder="Informe seu email" name="name" value="">
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#" class="btn btn-lg btn-block"> Inscreva-se</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quem-somos" class="secao">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="subtitulo">Quem Somos</h2>
+                    <div class="texto-quem-somos">
+                        <p>
+                            Somos um grupo de alunos de engenharia da computação, apaixonados pela informatica e seriamente comprometidos
+                            com a qualidade do que se faz e com o emprego do conhecimento em benefício da nossa sociedade.
+                        </p>
+                        <p>
+                            Acreditamos que possivel viver sem destruir, levamos isso tão a sério que temos a seguinte filosofia:
+                            <em><b>"Construi um mundo onde o novo é possivel sem destruir o que já existe"</b></em>. A engenharia tem essa obrigação e deve isso a humanidade. Não é somente nosso dever mas também nossos objetivos e metas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="secao">
+        <div class="container">
+            <div class="secao-conteudo">
+                <h2 class="subtitulo">O Aplicativo</h2>
+                <div class="col-md-12">
+                    <div class="row espaco-top">
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-tablet"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Completamente Responsivo </h4>
+                                        <p>
+                                            Totalmente responsivo, se ajustando ao seu dispositivo.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-gamepad"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Fácil Uso </h4>
+                                        <p>
+                                            É muito simples para jogar, muita diversão a sua espera.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-tachometer"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Mobile Otimizado </h4>
+                                        <p>
+                                            Além de simples pode ser instalado em todos os aparelhos existentes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-camera"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Multiplos Efeitos</h4>
+                                        <p>
+                                            Venha curti os efeitos modernos do nosso jogo de raciocinio.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-fire"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Rápido Suporte</h4>
+                                        <p>
+                                            Temos uma equipe preparada e disponivwel para lhe ajudar sempre.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-caracteristica">
+                                <div class="painel-icone">
+                                    <div class="icone">
+                                        <i class="fa fa-pencil"></i>
+                                    </div>
+                                    <div class="painel-texto">
+                                        <h4> Design Moderno</h4>
+                                        <p>
+                                            Design morderno e elegante com todos os recursos disponoveis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="download" class="secao">
+        <div class="container">
+            <div class="secao-conteudo">
+                <h2 class="subtitulo">Dowloands App</h2>
+                <p id="texto1">
+                    "Em breve estaremos disponibilizando esse e outros aplicativos para você se divertir com toda sua familia."
+                </p>
+                <div class="col-md-8 col-md-offset-2 painel-links">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="pull-right">
+                                <a  data-toggle="modal" data-target="#myModal" class=" btn-custom btn-lg btn-block">
+                                    <img src="img/btn-app-store.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a data-toggle="modal" data-target="#myModal2" class=" btn-custom btn-lg btn-block">
+                                <img src="img/btn-play-store.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section id="servicos" class="secao">
+    <div class="container">
+    <div class="row">
+    <h2 class="subtitulo">Quem Somos</h2>
+    <p>
+    Somos um grupo de alunos de engenharia da computação, apaixonados pela informatica e seriamente comprometidos
+    com a qualidade do que se faz e com o emprego do conhecimento em benefício da nossa sociedade.
+    Acreditamos que possivel viver sem destruir, levamos isso tão a sério que temos a seguinte filosofia:
+    "Construi um mundo onde o novo é possivel sem destruir o que já existe". A engenharia tem essa obrigação e deve isso a humanidade. Não é somente nosso dever mas também nossos objetivos e metas.
+
+</p>
+</div>
+</div>
+</section>-->
+<section id="equipe" class="secao">
+
+    <h2 class="subtitulo" > Equipe </h2>
+
+    <p id="texto2">
+        "Nossa equipe é altamente especializa e comprometida com a superação de desafios."
+    </p>
+
+    <div class="col-md-12">
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func2.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>José Humberto</h5>
+                                    <h6>Fundador & CEO</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func1.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>Marcelo Silva</h5>
+                                    <h6>Co-Fundador & Desenvolvedor</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func3.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>Marcos Vinicius</h5>
+                                    <h6>Analista & Desenvolvedor</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func4.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>Luciana Cristina</h5>
+                                    <h6>Analista & Desenvolvedor</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func5.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>Elton Ramos</h5>
+                                    <h6>Analista & Desenvolvedor</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="painel-equipe">
+                                <div class="imagem-equipe">
+                                    <img src="img/func6.jpg" alt="" />
+                                </div>
+                                <div class="descricao-equipe">
+                                    <h5>Matheus Oliveira</h5>
+                                    <h6>Analista & Desenvolvedor</h6>
+                                    <ul class="list-inline">
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a></li>
+                                        <li><a href="#"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="contato" class="secao">
+    <div class="container">
+        <div class="secao-conteudo">
+            <h2 class="subtitulo"> Contato</h2>
+            <div class="col-md-12 espaco-top">
+                <div class="col-md-5">
+                    <div class="row" >
+                        <h4 class="subtitulo-contato">Informações para Contato</h4>
+                        <p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>&ensp;&ensp;Rua Adelardo Nascimento 584, Universitário, Uberaba/MG.</p>
+                        <p><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>&ensp;eng.comp121@gmail.com</p>
+                        <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i>&ensp;(34) 3311-2813</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form class="form">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text"  class="form-control" placeholder="Seu nome" name="name" value="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Seu email" name="name" value="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="name" class="form-control"  rows="5" cols="40" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="col-md-12" style="margin-top: 15px;">
+                            <div class="pull-right">
+                                <input class="btn btn-default" type="button" name="name" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="logo-footer">
+            <h2>Math Mission</h2>
+        </div>
+        <div class="redes-sociais">
+            <a href="#" title="Facebook">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="#" title="Google Plus">
+                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="#" title="Linkedin">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+            <a id="ultimo-link" href="#" title="Twitter">
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Downloads</h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="text-center">Download indisponível! Guarde!</h5>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Downloads</h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="text-center">Download indisponível! Guarde!</h5>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="plugins/stellar.js-master/jquery.stellar.min.js"></script>
+
+</body>
+</html>
